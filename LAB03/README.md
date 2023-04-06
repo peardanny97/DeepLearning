@@ -66,4 +66,4 @@ class TensorflowCNN(tf.Module):
 cifar100 dataset에 대해서 tensorflow를 이용하여 모델을 작성하고 training하여서 tf.saved_model.save(model, 'model')을 통해 저장하십시오.
 - training이 완료된 model은 프로젝트 폴더 하위에 위치한 'model' 디렉토리에 저장되어 있어야 합니다.
 - loaded_model = tf.saved_model.load('model')의 방법을 통해서 불러 올 수 있어야 하고 불러온 모델의 accuracy가 0.2 이상이면 정답으로 처리하겠습니다.
-- **model를 training을 완료하고 저장후에는 "반드시 주석처리" 하여서 notebook import시에 실행이 되지 않도록 해 주세요.**
+
